@@ -69,7 +69,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 60px 30px;
     height: auto;
     background: linear-gradient(to bottom right, #f9f9f9, #e0e8ff);
     border-radius: 15px;
@@ -133,56 +133,74 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     justify-content: flex-end;
   }
 
   .logos-container img {
     width: 50px;
-    height: auto;
-  }
+        height: 50px;
+        border: 10px solid white;
+        border-radius: 50%;
+    }
+  
 
   .google {
     position: absolute;
     top: 60px;
     right: 400px;
     animation: google 3s ease-in;
+    box-shadow: 5px 4px 8px ;
+    background-color: white;
   }
+  
   .atlassian {
     position: absolute;
     top: 80px;
     right: 300px;
     animation: atlassian 3s linear;
+    box-shadow: 5px 4px 8px ;
+    background-color: white;
   }
   .asana {
     position: absolute;
     top: 95px;
     right: 70px;
     animation: asana 3s linear;
+    box-shadow: 5px 4px 8px ;
+    background-color: white; 
   }
   .paypal {
     position: absolute;
     top: 200px;
     right: 400px;
     animation: paypal 3s ease-out;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
   }
   .weave {
     position: absolute;
     top: 200px;
     right: 180px;
     animation: weave 3s ease-out;
+    box-shadow: 5px 4px 8px ; 
+    background-color: white;
   }
   .google-ads {
     position: absolute;
     top: 290px;
     right: 280px;
     animation: google-ads 3s ease-out;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
   }
   .calendar {
     position: absolute;
-    top: 80%;
-    right: 30px;
+    top: 70%;
+    right: 60px;
     animation: calendar 3s ease-in;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
   }
   @keyframes google {
     0% {
@@ -339,10 +357,6 @@ body {
     text-decoration: solid line-through gray;
   }
 
-  /* .element li {
-  font-size: 1rem;
-  color: #333;
-} */
 
   .pricing-header {
     text-align: center;
@@ -367,7 +381,6 @@ body {
     max-width: 400px;
     background-color: #fff;
     border-radius: 10px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     padding: 40px 60px;
     margin-left: 10%;
     gap: 20px;
@@ -402,7 +415,7 @@ body {
     margin-bottom: 30px;
   }
 
-  .play-video {
+  .amount-button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff;
@@ -420,29 +433,20 @@ body {
   }
 
   .benefits {
-    flex: 2;
-    flex: 2;
     display: flex;
-
-    gap: 60px;
-    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
   }
-  .benefits article {
-    text-align: center;
-  }
-  .two-benefit {
+  .benefits article{
     display: flex;
     flex-direction: column;
-    gap: 60px;
-  }
-  .two-benefit article{
-    text-align: center;
+    gap: 20px;
+    width: 40%;
+    align-items: center;
   }
 
   .benefit {
-    /* background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     text-align: center;
     padding: 20px;
   }
@@ -500,7 +504,6 @@ body {
   .form-container {
     display: flex;
     flex-direction: column;
-    /* width: 45%; */
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -782,46 +785,68 @@ body {
     margin-top: 80px;
     justify-content: flex-end;
   }
+  .google{
+    
+      width: 50px;
+          height: 50px;
+          border: 10px solid white;
+          border-radius: 50%;
+    box-shadow: 5px 4px 8px ;
+    background-color: white;
+  }
+  .paypal{
+    width: 50px;
+          height: 50px;
+          border: 10px solid white;
+          border-radius: 50%;
+    box-shadow: 5px 4px 8px ;
+    background-color: white;
+  }
+  .asana{
+    width: 50px;
+          height: 50px;
+          border: 10px solid white;
+          border-radius: 50%;
+    box-shadow: 5px 4px 8px ;
+    background-color: white;
+  }
+  .atlassian{
+    width: 50px;
+          height: 50px;
+          border: 10px solid white;
+          border-radius: 50%;
+    box-shadow: 5px 4px 8px ;
+    background-color: white;
+  }
+  .weave{
+    width: 50px;
+          height: 50px;
+          border: 10px solid white;
+          border-radius: 50%;
+    box-shadow: 5px 4px 8px ;
+    background-color: white;
+  }
+  .google-ads{
+    width: 50px;
+          height: 50px;
+          background-origin: padding-box;
+          border-radius: 50%;
+    box-shadow: 5px 4px 8px ;
+    background-color: white;
+    
+  }
+  .calendar{
+    width: 50px;
+          height: 50px;
+          border: 8px solid white;
+          border-radius: 50%;
+    box-shadow: 5px 4px 8px ;
+    background-color: white;
+  }
 
   .logos-container img {
     width: 50px;
   }
-  /* .google{
-    position: absolute;
-    top: 300px;
-    left: 150px;
-    }
-    .atlassian{
-    position: absolute;
-    top: 300px;
-    left:200px
-    }
-    .asana{
-      position: absolute;
-      top: 300px;
-      right: 50px;
-    }
-    .paypal{
-      position: absolute;
-      top: 500px;
-      lrft: 150px;
-    }
-    .weave{
-      position: absolute;
-      top:500px;
-      left:280px;
-    }
-    .google-ads{
-      position: absolute;
-      top: 550px;
-      left:280px;
-    }
-    .calendar{
-      position: absolute;
-      top: 550px;
-      right: 90px;
-    } 
-   */
   .why-front-section {
     display: flex;
     flex-direction: column;
@@ -923,7 +948,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 40px 60px;
   }
-
+  
   .amount h3 {
     display: flex;
     gap: 40px;
@@ -943,21 +968,29 @@ body {
     color: #333;
     margin-bottom: 15px;
   }
+  .amount-button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
   .benefits {
     display: flex;
-    gap: 80px;
+    gap: 40px;
     align-items: center;
-    padding-left: 80px;
+    flex-wrap: wrap;
   }
   .benefits article{
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  .two-benefit {
-    display: flex;
-    gap: 80px;
-    padding-left: 50px;
+    width: 46%;
   }
   .benefit img {
     width: 90px;
@@ -979,7 +1012,10 @@ body {
   }
 
   .hire {
-    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .us {
@@ -1023,11 +1059,12 @@ body {
     font-size: 14px;
     color: #b0c4de;
   }
-
+  .form{
+    text-align: center;
+  }
   .form-container {
     display: flex;
     flex-direction: column;
-    /* width: 45%; */
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -1114,12 +1151,12 @@ body {
     font-size: 1rem;
     cursor: pointer;
     display: inline-flex;
-    align-items: center;
-    gap: 10px;
+    margin: auto;
   }
   .checkbox {
     display: flex;
     text-align: center;
+    margin-left: 100%;
   }
   .consent {
     display: flex;
@@ -1134,6 +1171,8 @@ body {
 
   .hire-us {
     flex-direction: column;
+    width: 100%;
+    gap: 30px;
   }
 
   .hire,
@@ -1239,41 +1278,6 @@ body {
     border: none;
     align-items: flex-end;
   }
-  /* .google{
-      position: absolute;
-      top: 60px;
-      right: 400px;
-      }
-      .atlassian{
-      position: absolute;
-      top: 80px;
-      right: 300px;
-      }
-      .asana{
-        position: absolute;
-        top: 95px;
-        right: 70px;
-      }
-      .paypal{
-        position: absolute;
-        top: 200px;
-        right: 400px;
-      }
-      .weave{
-        position: absolute;
-        top:200px;
-        right:180px;
-      }
-      .google-ads{
-        position: absolute;
-        top: 300px;
-        right:280px;
-      }
-      .calendar{
-        position: absolute;
-        top: 80%;
-        right: 30px;
-      } */
   .first {
     display: flex;
     justify-content: space-between;
@@ -1307,23 +1311,81 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    position: relative;
+    left: -70px;
   }
   .learn-more {
-    
     font-size: 1rem;
     color: #007bff;
     text-decoration: underline;
-    /* cursor: pointer;
-    margin-top: 10px; */
-  }
-  .logos-container {
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    left: 100px;}
+
+    .logos-container{ 
     display: flex;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
     gap: 50px;
     margin-top: 30px;
     justify-content: center;
-  }
+    }
+    .google{
+      width: 50px;
+      height: 50px;
+      border: 8px solid white;
+      border-radius: 50%;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
+    }
+    .paypal{
+      width: 50px;
+      height: 50px;
+      border: 8px solid white;
+      border-radius: 50%;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
+    }
+    .asana{
+      width: 50px;
+      height: 50px;
+      border: 8px solid white;
+      border-radius: 50%;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
+    }
+    .atlassian{
+      width: 50px;
+      height: 50px;
+      border: 8px solid white;
+      border-radius: 50%;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
+    }
+    .weave{
+      width: 50px;
+      height: 50px;
+      border: 8px solid white;
+      border-radius: 50%;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
+    }
+    .google-ads{
+      width: 50px;
+      height: 50px;
+      border: 8px solid white;
+      border-radius: 50%;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
+      
+    }
+    .calendar{
+      width: 50px;
+      height: 50px;
+      box-shadow: 5px 4px 8px ;
+      background-color: white;
+    }
+  
   .logos-container img {
     width: 50px;
     height: auto;
@@ -1392,8 +1454,6 @@ body {
   
 
   .circle {
-    /* display: flex; */
-    /* flex-direction: column; */
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -1408,8 +1468,6 @@ body {
   }
 
   .fa-circle {
-/*     display: flex;
-    flex-direction: column; */
     font-size: 4px;
     text-decoration: solid line-through gray;
   }
@@ -1465,13 +1523,9 @@ body {
     gap: 50px;
     justify-content: flex-start;
   }
-  .two-benefit {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin-left: 0;
-    margin-right: 130px;
-    padding-left: 0;
+  
+  .benefits article{
+    width: 100%;
   }
   .benefit img {
     width: 50px;
@@ -1479,6 +1533,7 @@ body {
   .hire-us {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .hire {
     display: flex;
@@ -1544,6 +1599,9 @@ body {
   }
   .form-button {
     width: 40px;
+  }
+  .textarea{
+    color: gray;
   }
   form button.form-button {
     margin-left: 40%;
